@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.numbersContainer, .operatorsContainer, .clearContainer{
+  display: grid;
+  grid-template-columns: repeat(3,100px);
+  justify-content: center;
+  gap:20px
+}
+.numbersContainer button, .operatorsContainer button, .clearContainer button{
+  height: 50px;
+  background-color: aqua;
+  cursor: pointer;
+  color:  brown;
+  font-size: 17px;
+}
+.operatorsContainer,.clearContainer,.numbersContainer{
+  margin-top: 20px;
+}
+
+.numbersContainer button:hover, .operatorsContainer button:hover, .clearContainer button:hover{
+  background-color: brown;
+  height: 60px;
+  width: 110px;
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+
+.clearContainer{
+  display: grid;
+  grid-template-columns: repeat(2,100px);
+  justify-content: center;
+
+}
+.inputBox{
+  height: 30px;
+  width: 190px;
+  background-color: black;
+  color: white;
+
+}
+
+
